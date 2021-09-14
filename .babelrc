@@ -1,0 +1,10 @@
+{
+  "presets": [
+    [
+      "preset-react",
+      {
+        "throwIfNamespace": false // defaults to true
+      }
+    ]
+  ]
+}

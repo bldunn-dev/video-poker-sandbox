@@ -1,0 +1,70 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card-table {
+  height: 100vh;
+  background-color: darkgreen;
+}
+
+.scoreboard {
+  height: 3em;
+  background-color: black;
+  border: 4px solid darkred;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.scoreboard .result {
+  color: red;
+  width: 50%;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.scoreboard .bank,
+.scoreboard .bet,
+.scoreboard .won {
+  color: white;
+}
+
+.hand {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  margin: 0 8vw;
+  padding-top: 15px;
+  background-color: darkgreen;
+}
+
+.card img {
+  width: 23vw;
+  cursor: pointer;
+  transition: margin-top ease-in-out 300ms;
+}
+
+.card img:hover {
+  margin-top: -10px;
+}
+
+.action-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.action-row .bets {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.action-row .bets span {
+  font-weight: 600;
+  margin-right: 5px;
+}
